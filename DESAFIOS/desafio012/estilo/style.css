@@ -6,7 +6,7 @@
 
 :root
     --font01: Verdana, Geneva, Tahoma, sans-serif;
-    --font02: Passion One, cursive;
+    --font02: "Passion One, cursive;"
     --font03: Sriracha, cursive;
 
 * {
