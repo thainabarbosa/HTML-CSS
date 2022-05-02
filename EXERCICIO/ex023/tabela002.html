@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="PT-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 3px;
+        }
+        thead, tfoot {
+            color: white;
+            background-color: gray;
+        }
+        
+        .invisivel {
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+        }
+        .total {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes.</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>São Paulo</th>
+                <th>41 262 199</th>
+            <tr>
+                <th>Minas Gerais</th>
+                <th>19 597 330
+            <tr>
+                <th>Rio de Janeiro
+                <th>15 989 929
+            <tr>
+                <th>Bahia 
+                <th>14 016 906
+            <tr>
+                <th>Paraná
+                <th>10 444 526
+            <tr>
+                <th>Rio Grande do Sul
+                <th>10 693 929
+            <tr>
+                <th>Pernambuco
+                <th>8 796 448
+            <tr>
+                <th>Ceará
+                <th>8 452 381
+            <tr>
+                <th>Pará
+                <th>7 581 051
+            <tr>
+                <th>Santa Catarina
+                <th>6 248 436
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="invisivel">Total da população</th>
+                <th class="total">151 879 623</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
